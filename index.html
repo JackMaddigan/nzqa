@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NZQA Resource Generator</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="formStuff">
+      <h2>NZQA Resource Generator</h2>
+      <label for="answerOrExam">Exam or answers?</label><br />
+      <select name="answerOrExam" id="answerOrExam" class="selectThing">
+        <option value="exam">exam</option>
+        <option value="answer">answer</option></select
+      ><br />
+
+      <label for="year">What year:</label><br />
+      <input type="text" id="year" class="selectThing" />
+      <br />
+      <label for="theNumber">The assessment number (e.g 91171):</label><br />
+
+      <input type="text" id="theNumber" class="selectThing" />
+      <div id="results"></div>
+      <br />
+      <br />
+
+      <button onclick="generateResourceLink()" class="selectThing button1">
+        Generate Links
+      </button>
+    </div>
+
+    <!-- Display the result and other links on the page as hyperlinks -->
+    <div id="resultStuff">
+      <p id="result"></p>
+      <h3 id="heading-small"></h3>
+      <p id="link1"></p>
+      <p id="link2"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

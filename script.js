@@ -446,7 +446,7 @@ function displayResults(results) {
     results.forEach(([number, description]) => {
       const resultItem = document.createElement("div");
       resultItem.classList.add("result-item");
-      resultItem.textContent = `${number}: ${description}`;
+      resultItem.textContent = `${description}`;
       resultItem.addEventListener("click", () => {
         searchBox.value = number; // Set the search box value to the selected number
         resultsContainer.style.display = "none"; // Hide the results container

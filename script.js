@@ -24,12 +24,6 @@ function generateResourceLink() {
   window.open(result, "_blank");
 }
 
-function autoComplete() {
-  var linkp1 = "https://www2.nzqa.govt.nz/search/?current=n_";
-  var linkp2 =
-    "_n&q=9&size=n_15_n&filters%5B0%5D%5Bfield%5D=resource_types&filters%5B0%5D%5Bvalues%5D%5B0%5D=STD&filters%5B0%5D%5Btype%5D=all";
-}
-
 const achievementStandards ={
   '90005': '90005 Demonstrate knowledge of a dance genre or style Arts and Crafts / Dance / Dance Perspectives Level 1',
   '90011': '90011 Demonstrate understanding of the use of drama aspects within live performance Arts and Crafts / Drama / Drama Studies Level 1',

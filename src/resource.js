@@ -17,9 +17,9 @@ export const ResourceType = {
 function getNzqaResourceTypeUri(resourceType) {
 	switch (resourceType) {
 		case ResourceType.Answer:
-			return { longResource: "exams", shortResource: "exm" };
-		case ResourceType.Exam:
 			return { longResource: "schedules", shortResource: "ass" };
+		case ResourceType.Exam:
+			return { longResource: "exams", shortResource: "exm" };
 		case ResourceType.Formula:
 			return { longResource: "exams", shortResource: "res" };
 	}

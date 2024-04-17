@@ -10,6 +10,20 @@
     
 }
 
+@media screen and (max-width: 600px){
+    #formStuff {
+        transform: translateX(0%);
+            position: absolute;
+            background-color: white;
+            left:0;
+            right:0;
+            padding: 16px 64px;
+            margin: 0;
+            border-radius: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
 body{
     background-color: white;
 }
@@ -43,30 +57,29 @@ label {
 }
 
 
+#search-box {
+    padding: 10px;
+    font-size: 16px;
+}
 
-        #search-box {
-            padding: 10px;
-            font-size: 16px;
-        }
-    
-        #results {
-            display: none;
-            border: 1px solid #ccc;
-            max-height: 150px;
-            overflow-y: auto;
-            width: 400px;
-            position: absolute;
-            background-color: white;
-        }
-    
-        .result-item {
-            padding: 8px;
-            cursor: pointer;
-        }
-    
-        .result-item:hover {
-            background-color: #f2f2f2;
-        }
+#results {
+    display: none;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 400px;
+    position: absolute;
+    background-color: white;
+}
+
+.result-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.result-item:hover {
+    background-color: #f2f2f2;
+}
 
 .footer{
     position: absolute;
